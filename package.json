@@ -1,0 +1,25 @@
+{
+  "name": "MyBlog",
+  "version": "1.0.0",
+  "description": "- 从0开始搭建，不使用任何框架\r - 使用nodemon 监测文件变化，自动重启node\r - 使用cross-env设置环境变量，兼容Mac Linux和Windows",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cross-env NODE_ENV=dev nodemon  ./bin/www.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Greatpride/MyBlog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Greatpride/MyBlog/issues"
+  },
+  "homepage": "https://github.com/Greatpride/MyBlog#readme",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "nodemon": "^2.0.6"
+  }
+}
